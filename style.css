@@ -1,0 +1,425 @@
+body {
+    font-size: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.burger-stripe {
+    width: 30px;
+    height: 4px;
+    background-color: gray;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+.TopNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Menu {
+    display: none;
+}
+
+main{
+    overflow: hidden;
+}
+
+.section1 {
+    padding: 10px;
+    position: relative;
+
+}
+
+p {
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    color: violet;
+}
+
+.violet {
+    color: violet;
+}
+
+.section1-div {
+    margin-right: 30%;
+    margin-bottom: 30px;
+}
+
+.graphic {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+.sign-up {
+    padding: 15px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, red , yellow);
+    border-image-slice: 1;
+    width: fit-content;
+    height: auto;
+}
+
+.sign-up:hover {
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+
+.sign-up a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.section2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.section2 div {
+    padding-top: 30px;
+    padding: 10px;
+}
+
+.background-photo {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    margin-left: -100px;
+    opacity: 0.5;
+    height: initial;
+}
+
+.partners {
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 30px;
+    justify-items: center;
+}
+
+.partners img {
+    height: 9vw;
+}
+    
+.hide {
+    display: none;
+}
+
+.Auction {
+    padding: 10px;
+}
+
+.Auction .heading p a{
+    color: gray;
+}
+
+.Auction p a:hover{
+    color: orange;
+}
+
+.NFT-display {
+    display: flex;
+}
+
+.NFT {
+    background-color: lightgray;
+    border-radius: 10px;
+    width: min-content;
+    margin-right: 10px;
+}
+
+.nft-info {
+    padding: 8px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin: 0;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NFT-series, .NFT-name-and-price, .NFT-number-and-day, .top-bid {
+    padding: 3px;
+    padding-right: 0;
+    margin: 0;
+}
+
+.NFT .nft-info img {
+    max-width: min-content;
+    padding-right: 5px;
+}
+
+.Auction .NFT-display .NFT img {
+    width: 200px;
+}
+
+.NFT-series {
+    color: orange;
+    font-size: 12px;
+}
+
+.NFT-name-and-price {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.NFT-number-and-day {
+    font-size: 12px;
+}
+
+.top-bid {
+    font-size: 12px;
+}
+
+.grey-stripe {
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    height: 1px;
+    margin-top: 25px;
+}
+
+.section-last.first{
+    padding: 10px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.section-last {
+    margin-right: 40%;
+    height: fit-content;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.sign-up {
+    margin-left: 20px;
+}
+
+.section-last.first img {
+    position: absolute;
+    top: 100px;
+    right: -150px;
+    margin: 0;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.up-footer p {
+    margin: 20px 0;
+}
+
+.social-media img {
+    padding: 0 15px 0 0;
+}
+
+.about-box {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about {
+    padding-right: 70px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+.about-box a {
+    text-decoration: none;
+}
+
+.about-box a:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.copyright p {
+    color: grey;
+    font-size: 12px;
+}
+
+.onPC {
+    display: none;
+}
+
+
+@media screen and (min-width: 470px) {
+    
+    .burger {
+        display: none;
+    }
+
+    .Menu {
+        display: inline-flex;
+    }
+
+    .Menu a {
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    .Menu a p {
+        font-size: 14px;
+    }
+
+    .section1-div {
+        margin-right: 40%;
+    }
+
+    .section1 img {
+        position: absolute;
+        top: 20px;
+        right: -70px;
+    }
+
+    .background-photo {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .section2 h2 {
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+
+    .section2 p {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .partners {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .hide {
+        display: contents;
+        
+    }
+
+    .partners img {
+        height: 3vw;
+    }
+
+    .Auction {
+        margin-bottom: 20px;
+    }
+
+    .NFT-display {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .NFT {
+        width: 25%;
+    }
+
+    .Auction .NFT-display .NFT img {
+        width: 100%;
+    }
+
+    .info-box p {
+        padding: 0;
+        font-size: 1.25vw;
+    }
+
+    .section-last.first {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .section-last.first h1{
+        margin-top: 50px;
+        width: 55%;
+    }
+
+    .section-last.first img {
+        position: absolute;
+        top: 50px;
+        right: 20%;
+        margin: 0;
+        width: fit-content;
+    }
+
+    .onPhone {
+        display: none;
+    }
+
+    .section-last p {
+        width: 90%;
+    }
+
+    .grey-stripe {
+        width: 100%;
+        background-color: rgb(230, 230, 230);
+        height: 1px;
+        margin-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section-last .sign-up {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-box {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 5%;
+        margin-top: 0;
+    }
+
+    .about {
+        padding-right: 20px;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .onPC {
+        display: contents;
+    }
+
+}
